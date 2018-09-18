@@ -1,0 +1,82 @@
+<RelativeLayout
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ImageView
+        android:id="@+id/anh"
+        android:layout_width="317dp"
+        android:layout_height="245dp"
+        android:layout_alignParentTop="true"
+
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:paddingBottom="10dp"
+        android:src="@drawable/title" />
+
+    <Button
+        android:id="@+id/btLearn"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/anh"
+        android:layout_centerHorizontal="true"
+        android:text="LEARN"
+
+        />
+    <Button
+        android:id="@+id/btPractice"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btLearn"
+        android:layout_centerHorizontal="true"
+        android:text="PRACTICE"
+
+        />
+    <Button
+        android:id="@+id/btTest"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btPractice"
+        android:layout_centerHorizontal="true"
+        android:text="TEST"
+
+        />
+
+
+    <ImageView
+        android:id="@+id/iSetting"
+        android:layout_width="43dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/setting_pressed"
+
+        />
+
+    <ImageView
+        android:id="@+id/iLang"
+        android:layout_width="43dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/iSetting"
+        android:src="@drawable/language_normal" />
+
+    <ImageView
+        android:id="@+id/iReview"
+        android:layout_width="43dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/iLang"
+        android:src="@drawable/rating_pressed" />
+
+
+
+
+</RelativeLayout>
